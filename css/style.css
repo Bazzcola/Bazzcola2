@@ -1,0 +1,402 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'The Wild Breath of Zelda';
+    src: url("../fonts/The\ Wild\ Breath\ of\ Zelda.otf") format("opentype");
+    }
+
+.black_bg{
+    width:100%;
+    height:3316px;
+    background-color:black;
+}
+.container{
+    margin:0 auto;
+    max-width:1600px;
+    height:3316px;
+    background-image: url(../images/main_bg.png);
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    border-radius:20px;
+    padding-top:55px;
+
+}
+.header{
+    max-width: 1495px;
+    height:88px;
+    background-image: url(../images/navigation_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:8px;
+    display:flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.logotype{
+    width:105px;
+    height: 119px;
+    padding-left:45px;
+    position:relative;
+}
+.logotype img{
+    position: absolute;
+    top:-8px;
+}
+.navigation{
+    height: 88px;
+    display:flex;
+    position:relative;
+}
+.play_btn{
+    font-size:14px;
+    font-weight:700;
+}
+.play_btn p{
+    color:white;
+    text-shadow: 0 0 15px #00ccff;
+    transition: 0.3s;
+}
+.navigation a{
+    text-decoration: none;
+    font-weight:500;
+    font-size:14px;
+    color:rgb(255, 255, 255);
+}
+.navigation div{
+    height: 88px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:34px;
+}
+.navigation div:last-child {
+    max-width: 110px;
+    height: 44px;
+    box-shadow: 0px 1px 0px #00ccff54;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 21px;
+    margin-right: 25px;
+    margin-left: 15px;
+    background: linear-gradient(0deg, rgb(0, 41, 88) 10%, rgb(0, 21, 51) 100%);
+    cursor: pointer;
+}
+.play_btn p:hover{
+    color:#00ccff;
+}
+.navigation a:hover{
+    color:rgb(255, 255, 255);
+}
+.navigation div:hover{
+    background: linear-gradient(0deg, rgba(179,194,222,0.2) 0%, rgba(117,165,247,0.2) 62%);
+    cursor: pointer;
+}
+.ikov_title{
+    padding-top:95px;
+    text-align: center;
+}
+.table_menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:65px;
+    padding-bottom: 41px;
+}
+.table_menu a{
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+    font-weight:500;
+}
+.table_menu div:hover{
+    border-bottom:2px white solid;
+    background-color: rgba(255, 255, 255, 0.120);
+}
+.table_menu div{
+    padding:30px 10px 0px 10px;
+    height:55px;
+}
+.table_menu::before{
+    display:block;
+    content: "";
+    height:2px;
+    width:1020px;
+    background:rgba(255, 255, 255, 0.123);
+    position:absolute;
+    top:488px;
+}
+.table_bg{
+    max-width:1400px;
+    height:1699px;
+    background:#10131A;
+    margin:0 auto;
+}
+.table_container{
+    height:1669px;
+    padding-left:115px;
+    padding-right:115px;
+    position:relative;
+    padding-top:60px;
+}
+.search{
+    background:#0A0D11;
+    width: 489px;
+    height:45px;
+    border-radius: 6px;
+    position:relative;
+    padding-top:14px;
+    padding-left:21px;
+}
+.search img{
+    position: absolute;
+    top:14px;
+    right:16px;
+    cursor: pointer;
+}
+.search input[type=text]{
+    font-size: 14px;
+    font-weight:600;
+    color:#2B2E34;
+    outline: none;
+    border:none;
+    width: 425px;
+    height: 30px;
+    background:#0A0D11;
+    padding-bottom:13px;
+
+}
+.skill_text{
+    position:absolute;
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    top:40px;
+    right:695px;
+}
+.table_img{
+    position: absolute;
+    top: 56px;
+    right: 125px;
+}
+.table_title{
+    display:flex;
+    padding-top:60px;
+    font-size:14px;
+    font-weight: 600;
+    padding-bottom:22px;
+}
+.rank{
+    padding-right:20px;
+    color:#303338;
+}
+.player{
+    color:white;
+    padding-right:314px;
+}
+.level{
+    padding-right:681px;
+    color:#303338;
+}
+.xp{
+    color:white;
+}
+.table_rows div{
+    position: relative;
+    display:flex;
+    height:45px;
+    font-size:14px;
+  
+}
+.number19{
+    padding-left:33px;
+    padding-right:20px;
+    padding-top:15px;
+    width:62px;
+}
+.number19 p{
+    color:#303338;
+    font-weight: 600;
+}
+.number1030{
+    padding-left:28px;
+    padding-right:20px;
+    padding-top:15px;
+    width:62px;
+}
+.number1030 p{
+    color:#303338;
+    font-weight: 600;
+}
+.name{
+    color:white;
+    padding-top:15px;
+    width:150px;
+    font-weight: 600;
+   
+}
+.level_nb{
+    color:#303338;
+    padding-left:206px;
+    padding-top:15px;
+    font-weight:600;
+}
+.score{
+    position: relative;
+    color:white;
+    margin-left:592px;
+    margin-right:17px;
+    padding-top:15px;
+    width:105px;
+}
+.score p{
+    position: absolute;
+    top:15px;
+    right:0;
+    font-weight: 600;
+}
+.footer{
+    padding-left:100px;
+    padding-right:100px;
+}
+.pre_footer{
+    max-width: 1400px;
+    height:125px;
+    border-radius: 6px;
+    border-top:1px solid #27334D;
+    background:rgb(19, 27, 41);
+    margin-top:72px;
+    display:flex;
+    position: relative;;
+
+}
+.discord_img{
+    width:158px;
+    height:125px;
+    background-image: url(../images/discord.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius:6px;
+    border-bottom-left-radius: 6px;
+}
+.disc_img{
+    position: absolute;
+    left:210px;
+    top:40px;
+}
+.pre_footer p{
+    font-size:14px;
+    font-weight:500;
+    color:#8c9eff;
+    margin-left:510px;
+    margin-top:45px;
+    line-height:1.6;
+}
+.pre_footer_btn{
+    position: relative;
+    height:61px;
+    width:60px;
+    margin-top:33px;
+    margin-left:530px;
+    cursor: pointer;
+}
+.discord_img::after{
+    display:block;
+    content:"";
+    background:#8c9eff;
+    width:1px;
+    height:67px;
+    position: absolute;
+    top:25px;
+    left:615px;
+}
+.banners_text{
+    position:relative;
+}
+.ikov_banner{
+    position: absolute;
+    top:-25px;
+    left:140px;
+}
+.text_banner{
+    width:575px;
+    height:330px;
+    text-align: center;
+    margin-left:605px;
+    margin-top:205px;
+}
+.text_banner p{
+    margin-top:13px;
+    color:white;
+    font-size:16px;
+    font-weight:500;
+    line-height: 1.5;
+}
+.play_btn2{
+    position:absolute;
+    top: 223px;
+    left: 805px;
+    cursor: pointer;
+}
+.last_footer{
+    height:264px;
+    max-width:1600px;
+    background:rgb(10,12,13);
+    margin-top:90px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    padding-top:78px;
+
+}
+.footer_nav{
+    max-width: 1450px;
+    height:56px;
+    background:rgb(6,7,8);
+    margin-left:75px;
+    margin-right:75px;
+    display:flex;
+    justify-content: space-between;
+    padding:20px 10px 25px 25px;
+}
+.footer_nav a{
+    text-decoration: none;
+    color:#222324;
+    font-size:14px;
+    font-weight:600;
+}
+.left_navi a+a{
+    padding-left:15px;
+    
+}
+.right_navi a+a{
+    padding-left:15px;
+}
+.copy_text{
+    display:flex;
+    justify-content: space-between;
+}
+.left_side{
+    font-size:14px;
+    font-weight: 500;
+    color:#1d2021;
+    margin-left:100px;
+    margin-top:25px;
+}
+.right_side{
+    display:flex;
+    font-size:14px;
+    font-weight: 500;
+    color:#1d2021;
+    margin-right:100px;
+    margin-top:25px;
+}
+#jqrows{
+    background:#181E27;
+    border-radius:6px;
+}
